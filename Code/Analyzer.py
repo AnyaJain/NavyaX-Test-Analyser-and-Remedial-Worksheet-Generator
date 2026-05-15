@@ -7,8 +7,8 @@ import fitz  #PyMuPDF
 from fpdf import FPDF
 from PyPDF2 import PdfFileMerger
 
-# Initialize OpenAI client
-client = OpenAI(api_key="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")
+# Initialize OpenAI client - fill key
+client = OpenAI(api_key="")
 
 # Create a new FPDF object
 pdf = FPDF()
